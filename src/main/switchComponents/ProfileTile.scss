@@ -1,0 +1,26 @@
+.backGroundImageColor {
+    background-image: url('../../assets/desktop-wallpaper-login-background-outlook-login.jpg');
+    // background-image:linear-gradient(to bottom,url('../../assets/desktop-wallpaper-login-background-outlook-login.jpg'),opacit 100%),;
+    opacity: 0.8;
+color: #fff;
+    .col-12 {
+        text-align: center;
+        padding-top: 27px;
+        margin-bottom: -16px;
+    }
+    .text-muted{
+        color: #aec1d3 !important;
+    }
+    .imageWidthDecrease{
+        width: 50%;
+    }
+    .alignToInline{
+        display: inline-block;
+        margin-right: 10px;
+        font-weight: 600;
+    }
+    a:hover{
+            color: white!important;
+        }
+    
+}

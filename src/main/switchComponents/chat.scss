@@ -1,0 +1,244 @@
+.chatTile {
+    .row {
+        &.chatContent{
+            margin-bottom: 30px;
+        }
+        padding-left: 18px;
+
+        .chat2Section {
+            // border: 1px solid black;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding-left: 26px;
+
+            .stylingFordot {
+                margin-left: -24px;
+
+                .styleDot {
+                    color: #5cc28e;
+                    height: 4em;
+                    width: 4em;
+                }
+
+            }
+
+            .chatDetails {
+                .iterateChat{
+                    max-height: 300px;
+                    overflow-y: hidden;
+                    width: inherit;
+                }
+                .iterateChat:hover {
+                    overflow-y: scroll;
+                }
+
+                .iterateChat:hover::-webkit-scrollbar {
+                    width: 5px;
+                }
+
+                .iterateChat::-webkit-scrollbar-track {
+                    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                }
+
+                .iterateChat::-webkit-scrollbar-thumb {
+                    background-color: darkgrey;
+                    outline: 1px solid slategrey;
+                }
+
+                .iterateChat {
+                    .chatiterating:hover{
+                        background-color: #fff;
+                        cursor: pointer;
+                    }
+                    .chatiterating {
+                        margin: 5px 0px 5px 0px;
+
+                        .col-1 {
+                            width: 6.888%;
+
+                            .stylingFordot {
+                                margin-left: -15px;
+                                vertical-align: super;
+                                position: relative;
+
+                                .styleDot {
+
+                                    height: 3em;
+                                    width: 3em;
+                                    position: absolute;
+                                    bottom: -15px;
+                                }
+                            }
+                        }
+
+                        .col-7 {
+                            &.infoChatPerson{
+                                padding-left: 10px;
+                            }
+                            .nameOfChat {
+                                font-size: 14px !important;
+                                font-weight: 500;
+                                line-height: 1.2;
+                                color: #74788d
+                            }
+
+                            .statusofChatPerson {
+                                color: #74788d;
+                                font-size: .8125rem;
+                            }
+                        }
+
+                        .imageStyling {
+                            text-align: center;
+                            margin-left: 1px;
+
+                            img {
+                                border-radius: 40px;
+                                vertical-align: bottom;
+                            }
+                        }
+
+                        .timeofLastChat {
+                            text-align: right;
+                            vertical-align: top;
+                            padding-right: 5px;
+                        }
+                    }
+                }
+
+
+
+
+            }
+
+            .col-12 {
+                .userImage {
+                    img {
+                        border-radius: 19px;
+                        vertical-align: bottom;
+                    }
+                }
+
+                div {
+                    display: inline-block;
+                }
+
+                .bellStyling {
+                    margin-top: -59px;
+                }
+
+                .userDataStyling {
+
+
+                    .activeStyling {
+                        margin-left: -13px;
+                        color: #74788d
+                    }
+
+                    .nameStyling {
+                        font-size: 15px !important;
+                        // margin-bottom: 0.25rem!important;
+                        font-weight: 500;
+                        line-height: 1.2;
+                    }
+
+                    .statusStyling {}
+
+                    padding-left: 15px;
+
+                    p {
+                        margin-bottom: -11px;
+                    }
+                }
+            }
+
+            .searchBarStyling {
+                margin-top: 20px;
+
+                input {
+                    border: none;
+                    background-color: #ece8e896;
+                }
+
+                .searchStyling {
+                    position: absolute;
+                    right: 12px;
+                    top: 13px;
+                }
+            }
+
+            .buttonGroupStyling {
+                margin-top: 20px;
+
+                 .chatStyle{
+                    background-color: #556ee6;
+                    color: white;
+                }
+            }
+
+            .chatDetails {
+                margin-top: 20px;
+            }
+        }
+.groupChatsSection{
+    :hover{
+        cursor: pointer;
+    }
+    margin-top: 10px;
+
+    :first-child{
+        margin-top: 20px;
+    }
+    margin-bottom: 10px;
+.styleAlphabet{
+    background-color: #7085ec;
+    padding: 10px 16px;
+    border-radius: 40px;
+    color: #fff;
+}
+}
+.contactIterate{
+    // text-align: center;
+    // margin-top: 20px;
+&:hover{
+    cursor: pointer;
+}
+    line-height: 2.25em;
+    font-size: 16px;
+    font-weight: 600;
+    color:#74788d;
+    div{
+        display: inline-block;
+    }
+    .nameOftheContact{
+        padding-left: 20px;
+        width: 100%;
+        &:hover{
+            background-color:#fff;
+        }
+    }
+    .displayContact{
+        padding-left: 50px;
+        display: none!important;
+  
+    }
+    &:hover{
+        // background-color: #fff;
+        .displayContact{
+            display: block!important;
+            background-color: transparent!important;
+      
+        }
+    }
+}
+        .chat3Section {
+            margin-top: 15px;
+
+            border: 1px solid yellow;
+        }
+    }
+    .chatDesc{
+        margin-bottom: 20px;
+    }
+
+}

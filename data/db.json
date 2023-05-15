@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userEmail": "Zara@gmail.com",
+      "password": "mk1234567",
+      "admin": false
+    },
+    {
+      "id": 2,
+      "userEmail": "mona12@gmail.com",
+      "password": "mk1234567",
+      "admin": false
+    },
+    {
+      "id": 785,
+      "userEmail": "mounika@gmail.com",
+      "password": "mounika123",
+      "admin": true
+    },
+    {
+      "id": 229,
+      "userEmail": "mounika12@gmail.com",
+      "password": "mounika123",
+      "admin": false
+    },
+    {
+      "id": 14,
+      "userEmail": "mk1232@gmail.com",
+      "password": "edsfsdfsdfs"
+    }
+  ],
+  "chatDetails": [
+    {
+      "imageUrl": "/chatAvatars/adams.png"
+    },
+    {
+      "imageUrl": "/chatAvatars/alex.jpg"
+    },
+    {
+      "imageUrl": "/chatAvatars/emma.png"
+    },
+    {
+      "imageUrl": "/chatAvatars/grey.png"
+    }
+  ],
+  "imges": {
+    "imageUrl": "../src/assets/chatAvatars/adams.png"
+  }
+}

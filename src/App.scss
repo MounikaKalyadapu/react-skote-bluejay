@@ -1,0 +1,39 @@
+
+#page-header-user-dropdown{
+  border: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+.App {
+  width: 100%;
+  overflow-x: hidden;
+ 
+  .sideBar{
+    background-color: rgb(48,52,68);
+    margin: 0px!important;
+    padding: 0px!important;
+    &.col-3{
+      width: 20%;
+    }
+    
+  }
+  .sideBarToggle{
+    display: none;
+  }
+  .mainClass{
+margin: 0px;
+padding: 0px;
+  }
+  .allData{
+    .col-9{
+      width: 80%;
+    }
+  }
+  
+  .col-full{
+    width: 100%!important;
+  }
+}
+

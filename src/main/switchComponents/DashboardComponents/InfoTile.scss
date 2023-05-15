@@ -1,0 +1,20 @@
+.iconStyling{
+    display: inline-block;
+    svg{
+        width:3em;
+        height:3em;
+        padding: 10px;
+        color: #e0eff0;
+    }
+ 
+}
+
+.backGroundColor{
+    background-image: linear-gradient(to right, #2193b0  , #6dd5ed);
+}
+.text-muted{
+    color: #565f68 !important;
+}
+.addMargin{
+    margin: 10px;
+}

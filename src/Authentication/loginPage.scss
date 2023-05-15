@@ -1,0 +1,55 @@
+.authPage {
+
+    background-image: url('../assets/desktop-wallpaper-login-background-outlook-login.jpg');
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    .loginPage {
+        .applicationTitle{
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+        margin: auto;
+        margin-top: 10%;
+        width: 30%;
+        border: 1px solid #a3a1a1;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 1px 2px 13px 0px;
+        color: white;
+
+        .errorMessage {
+            color: red;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .buttonStyle {
+            width: 100%;
+        }
+
+        .signUpNow {
+            border: none;
+            background: none;
+            font-weight: 400;
+            color: #7af1f5;
+            text-decoration: underline;
+        }
+
+        .info {
+            text-align: center;
+            margin: 5px;
+        }
+    }
+}

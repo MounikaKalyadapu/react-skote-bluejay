@@ -1,0 +1,62 @@
+export const UserData =[
+    {id:1,
+    month:'Jan',
+  noOfmails:53,
+seriesGroup:'A'
+},
+{id:2,
+  month:'Feb',
+noOfmails:10,
+seriesGroup:'B'
+},
+{id:3,
+  month:'Mar',
+noOfmails:20,
+seriesGroup:'C'
+},
+{id:4,
+  month:'Apr',
+noOfmails:70,
+seriesGroup:'A'
+},
+{id:5,
+  month:'May',
+noOfmails:53,
+seriesGroup:'B'
+},
+{id:6,
+    month:'Jun',
+  noOfmails:53,
+seriesGroup:'A'
+},
+{id:7,
+  month:'Jul',
+noOfmails:10,
+seriesGroup:'B'
+},
+{id:8,
+  month:'Aug',
+noOfmails:20,
+seriesGroup:'C'
+},
+{id:9,
+  month:'Sep',
+noOfmails:70,
+seriesGroup:'A'
+},
+{id:10,
+  month:'Oct',
+noOfmails:53,
+seriesGroup:'B'
+},
+{id:11,
+  month:'Nov',
+noOfmails:70,
+seriesGroup:'A'
+},
+{id:12,
+  month:'Dec',
+noOfmails:53,
+seriesGroup:'B'
+}
+  ]

@@ -1,0 +1,21 @@
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f5;
+    padding: 20px 18px;
+    .footerFlex{
+        display: flex;
+        flex-direction: row;
+        .wrapping{
+            flex-basis: 20%;
+        }
+        .wrapping2{
+            flex-basis: 55%;
+    }
+    .textAligning{
+        text-align: right;
+    }
+}
+}
